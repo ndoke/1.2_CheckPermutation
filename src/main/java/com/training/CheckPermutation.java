@@ -3,8 +3,8 @@ package com.training;
 import java.util.Arrays;
 
 /**
- * {@link CheckPermutation} has methods to test whether a given string has
- * all unique characters.
+ * {@link CheckPermutation} has methods to test whether two strings are
+ * permutations of each other.
  * {@link CheckPermutation#isPermutation(String, String)} tests whether the
  * two strings are permutations of each other or not.
  * {@link CheckPermutation#isPermutationSort(String, String)} (String, String)}
@@ -15,7 +15,7 @@ import java.util.Arrays;
  * @since 1.0
  */
 public class CheckPermutation {
-    private static final int TOTAL_CHARS_ENGLISH = 28;
+    private static final int TOTAL_CHARS_ENGLISH = 26;
     private static final int FIRST_LOWER_CHAR_ENGLISH = 97;
     private static final int FIRST_UPPER_CHAR_ENGLISH = 65;
 
